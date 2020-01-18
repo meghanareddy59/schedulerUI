@@ -35,6 +35,17 @@ margin:10px;
         COLOR: antiquewhite;
     
 }
+.freeze{
+    font-size: 25PX;
+    margin-top: 30px;
+    float: right;
+    PADDING: 10PX;
+    BACKGROUND-COLOR: cornflowerblue;
+    COLOR: antiquewhite;
+    margin-right: 20px;
+}
+}
+
 
 body
 {

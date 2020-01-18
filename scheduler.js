@@ -61,21 +61,21 @@ end_div.appendChild(setEndDate);
 end_div.appendChild(sed);
 
 //new schedule button 
-var Button_div = document.createElement('div');
+var Button_span = document.createElement('span');
 var  Button = document.createElement('input');
 Button.setAttribute('class','button');
 Button.setAttribute('type','submit');
 Button.setAttribute('value','Generate new schedule');
 
-maindiv.appendChild(Button_div);
-Button_div.appendChild(Button);
+maindiv.appendChild(Button_span);
+Button_span.appendChild(Button);
 
 
-var Button_div1 = document.createElement('div');
+var freeze_span = document.createElement('span');
 var  Button2 = document.createElement('input');
-Button2.setAttribute('class','button');
+Button2.setAttribute('class','freeze');
 Button2.setAttribute('type','submit');
 Button2.setAttribute('value','Freeze');
 
-maindiv.appendChild(Button_div1);
-Button_div1.appendChild(Button2);
+maindiv.appendChild(freeze_span);
+freeze_span.appendChild(Button2);
